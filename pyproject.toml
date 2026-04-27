@@ -1,7 +1,7 @@
 [project]
-name = "pystruments"
+name = "logtie"
 version = "0.1.0"
-description = "Add your description here"
+description = "Lightweight, zero-dependency logging wrapper with structured output, context injection, and file rotation"
 readme = "README.md"
 authors = [
     { name = "beqm", email = "brenomartinsmb@gmail.com" }
@@ -12,3 +12,8 @@ dependencies = []
 [build-system]
 requires = ["uv_build>=0.11.7,<0.12.0"]
 build-backend = "uv_build"
+
+[tool.uv.workspace]
+members = [
+    "project",
+]
