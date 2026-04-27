@@ -1,6 +1,6 @@
 """JSON file output: structured logs for ingestion by log aggregators."""
 
-from logtie import log
+from python.src.logtie import log
 
 # ── Default JSON field mapping ─────────────────────────────────────────────────
 # asctime  → "timestamp"

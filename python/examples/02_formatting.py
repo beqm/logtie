@@ -1,6 +1,6 @@
 """Formatting: LogFmt tokens, TimeFmt tokens, raw format strings, ISO 8601."""
 
-from logtie import log
+from python.src.logtie import log
 
 # ── LogFmt + TimeFmt tokens ───────────────────────────────────────────────────
 log.configure(

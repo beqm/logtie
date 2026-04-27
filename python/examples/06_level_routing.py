@@ -1,6 +1,6 @@
 """Level routing: send different levels to different destinations."""
 
-from logtie import log
+from python.src.logtie import log
 
 # Route DEBUG+INFO to stdout, WARNING+ to a separate file.
 # Both handlers share the same queue for non-blocking writes.

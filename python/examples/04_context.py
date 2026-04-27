@@ -1,6 +1,6 @@
 """Context injection: bind / unbind / clear_binds for structured logging."""
 
-from logtie import log
+from python.src.logtie import log
 
 log.configure(
     name="context",

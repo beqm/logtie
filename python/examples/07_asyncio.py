@@ -1,7 +1,7 @@
 """Asyncio usage: context injection is task-local, queue=True avoids blocking."""
 
 import asyncio
-from logtie import log
+from python.src.logtie import log
 
 log.configure(
     name="async_app",

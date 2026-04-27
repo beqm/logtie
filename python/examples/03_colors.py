@@ -1,6 +1,6 @@
 """Colors: AnsiColor constants, hex truecolor, per-level overrides."""
 
-from logtie import log
+from python.src.logtie import log
 
 # ── Default Colors instance (built-in palette) ────────────────────────────────
 log.configure(

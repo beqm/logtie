@@ -1,6 +1,6 @@
 """File rotation: size-based (bytes) and line-based rotation."""
 
-from logtie import log
+from python.src.logtie import log
 
 # ── Size-based rotation ───────────────────────────────────────────────────────
 # Rotates app.log → app.log.1 → app.log.2 … when file hits 1 MB.

@@ -1,6 +1,6 @@
 """Basic usage: configure once, log at all levels, attach extra fields."""
 
-from logtie import log
+from python.src.logtie import log
 
 log.configure(
     name="basic",
