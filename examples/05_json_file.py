@@ -14,7 +14,12 @@ from logtie import log
 log.configure(
     name="json_demo",
     level=log.DEBUG,
-    stdout=log.Stdout(colored=True),          # human-readable in terminal
+    stdout=log.Stdout(
+        fmt=log.LogFmt("[timestamp] [level] - [message]"),
+        datefmt="iso",
+        colored=True,
+        spacing=True,
+    ),
     file=log.File(
         path="examples/app.jsonl",
         datefmt="iso",
