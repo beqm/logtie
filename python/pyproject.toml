@@ -17,3 +17,12 @@ build-backend = "uv_build"
 members = [
     "project",
 ]
+
+[dependency-groups]
+dev = [
+    "taskipy>=1.14.1",
+    "twine>=6.2.0",
+]
+
+[tool.taskipy.tasks]
+publish = "uv build && twine upload dist/*"
